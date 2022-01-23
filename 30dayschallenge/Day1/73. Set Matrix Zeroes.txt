@@ -1,0 +1,94 @@
+73. Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/
+
+class Solution { //BEST SOLUTION
+public:
+    void setZeroes(vector<vector<int>>& matrix) {
+        int row = matrix.size();
+        int col = matrix[0].size();
+        
+        bool x = false; //for row
+        bool y = false; //for column
+        
+        //Checking if there is ZERO present in first row
+        for(int j=0;j<col;j++){
+            if(matrix[0][j] == 0)
+                x = true;
+        }
+        
+        //Checking if there is ZERO present in first column
+        for(int i=0;i<row;i++){
+            if(matrix[i][0] == 0)
+                y = true;
+        }
+        
+        //Marking First Row and First Column as ZERO
+        for(int i=1;i<row;i++){
+            for(int j=1;j<col;j++){
+                if(matrix[i][j] == 0){
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
+                }
+            }
+        }
+        
+        //Checking the first row, if there is ZERO the putting ZERO in corresponding column
+        for(int i=1;i<row;i++){
+            if(matrix[i][0] == 0){
+                for(int j=1;j<col;j++)
+                    matrix[i][j] = 0;
+            }
+                
+        }
+        
+        //Checking the first column, if there is ZERO the putting ZERO in corresponding row
+        for(int j=1;j<col;j++){
+            if(matrix[0][j] == 0){
+                for(int i=1;i<row;i++)
+                    matrix[i][j] = 0;
+            }      
+        }
+        
+        //Putting ZERO in first row if already a ZERO was present
+        if(x){
+            for(int j=0;j<col;j++){
+                matrix[0][j] = 0;
+            }
+        }
+        
+        //Putting ZERO in first column if already a ZERO was present
+        if(y){
+            for(int i=0;i<row;i++){
+                matrix[i][0] = 0;
+            }
+        }
+    }
+};
+
+class Solution { //PARTIAL TRUE
+public:
+    void setZeroes(vector<vector<int>>& matrix) {
+        int row = matrix.size();
+        int col = matrix[0].size();
+        
+        vector<int> r(row,0);
+        vector<int> c(col,0);
+        
+        for(int i=0;i<row;i++){
+            for(int j=0;j<row;j++){
+                if(matrix[i][j] == 0){
+                    r[i] = -1;
+                    c[j] = -1;
+                }
+            }
+        }
+        
+        for(int i=0;i<row;i++){
+            for(int j=0;j<row;j++){
+                if(r[i] == -1 || c[j] == -1){
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+        
+    }
+};
