@@ -1,0 +1,33 @@
+9. Palindrome Number :- https://leetcode.com/problems/palindrome-number/
+
+Sol1(Complexity - O(n)) :
+	bool isPalindrome(int x) {
+        if(x<0)
+            return false;
+        long n=0;
+        int num = x;
+        while(x!=0){
+            int r = x%10;
+            n = n*10+r;
+            x/=10;
+        }
+        return n == num;
+    }
+
+Sol2(Complexity - O(n/2)):
+    bool isPalindrome(int x) {
+        if(x<0)
+            return false;
+        string str = to_string(x);
+        int n = str.length();
+        int c=0;
+        for(int i=0;i<n/2;i++){
+            if(str[i]!=str[n-i-1]){
+                c++;
+            }
+        }
+        if(c>0) 
+            return false;
+        else
+            return true;
+    }

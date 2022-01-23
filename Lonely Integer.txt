@@ -1,0 +1,23 @@
+Lonely Integer :- https://www.hackerrank.com/challenges/lonely-integer/problem
+
+Sol1(Bruteforce):
+	int lonelyinteger(vector<int> a) {
+	    int arr[101];
+	    for(long unsigned int i=0; i<a.size();i++)
+	        arr[a[i]]++;
+	    
+	    for(int i=0;i<101;i++){
+	        if(arr[i]==1)
+	    	  	return i;  
+	    	}          
+	    }
+	    return 0;
+	}
+
+Sol2(Using Bitwise XOR):
+	int lonelyinteger(vector<int> a) {
+		int val = 0 ;  
+	    for(int i=0;i<a.size();i++)
+	        val=val ^ a[i];
+	    return val;
+	 }

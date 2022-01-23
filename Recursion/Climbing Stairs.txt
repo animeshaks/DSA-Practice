@@ -1,0 +1,58 @@
+70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
+
+class Solution {
+public:
+    int climbStairs(int n) {
+        /*
+        RECURSIVE, But TLE
+        if(n==0)
+            return 1;
+        if(n<0)
+            return 0;
+        return climbStairs(n-1)+climbStairs(n-2);
+        */
+        
+        /*
+        EXTRA SPACE TAKEN (ARRAY)
+        int arr[n+2];
+        arr[0] = 1;
+        arr[1] = 1;
+        
+        for(int i=2;i<(n+1);i++)
+            arr[i] = arr[i-1] + arr[i-2];
+        
+        return arr[n];
+        */
+        
+        // BEST APPROACH
+        int a = 1,b = 1;
+        int c;
+        for(int i=0;i<n-1;i++){
+            c=a+b;
+            a=b;
+            b=c;
+        }
+        return c;
+        
+    }
+};
+
+
+Reach the Nth point - https://practice.geeksforgeeks.org/problems/reach-the-nth-point5433/1/#
+
+class Solution{
+    public:
+    
+        int solve(int n,vector<int> &dp){
+            if(n==0) return 1;
+            if(n<0) return 0;
+            
+            if(dp[n]!=-1) return dp[n];
+            
+            return dp[n]=(solve(n-1,dp)+solve(n-2,dp))%1000000007;
+        }
+        int nthPoint(int n){
+            vector<int> dp(n+1,-1);
+            return solve(n,dp);
+        }
+};

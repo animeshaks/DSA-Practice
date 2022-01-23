@@ -1,0 +1,26 @@
+20. Valid Parentheses :- https://leetcode.com/problems/valid-parentheses/
+
+Sol(Using Stack) :
+    bool isValid(string s) {
+        stack<char> tmp;
+        int len = s.length();
+        tmp.push('x');
+        for(int i=0;i<len;i++){
+            if(s[i]=='(' || s[i]=='{' ||s[i]=='['){
+                tmp.push(s[i]);
+                continue;
+            }else{
+                if(s[i]==')' && tmp.top() == '(')
+                    tmp.pop();
+                else if(s[i]=='}' && tmp.top() == '{')
+                    tmp.pop();
+                else if(s[i]==']' && tmp.top() == '[')
+                    tmp.pop();
+                else
+                    return false;
+            }
+        }
+        if(tmp.size()!=1)
+            return false;
+        return true;
+    }

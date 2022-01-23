@@ -1,0 +1,51 @@
+476. Number Complement :- https://leetcode.com/problems/number-complement/
+1009. Complement of Base 10 Integer :- https://leetcode.com/problems/complement-of-base-10-integer/
+
+Sol1_(Bruteforce):
+
+    int findComplement(int num) {
+        vector<int> bin;
+        int n=num;
+        //Decimal to Binary
+        while(n!=0){
+            int rem = n%2;
+            n = n/2;
+            bin.push_back(rem);
+        }
+        //Complement 
+        for(int i=0;i<bin.size();i++){
+            if(bin[i] == 0)
+                bin[i] = 1;
+            else
+                bin[i] = 0;
+        }
+            
+        int ans=0;
+        //Binary To Decimal
+        for(int i=bin.size()-1;i>=0;i--){
+            ans += bin[i] * pow(2,i);
+        }
+            
+        return ans;  
+    }
+
+Sol2:
+    int findComplement(int num) {
+        int count = 0;
+        count =log2(num); // to get the number of bits of decimal number;
+        count++;   
+        int ans = pow(2,count) - 1;
+        return ans^num;
+    }
+
+Sol3:
+    int bitwiseComplement(int n) {
+        if(!n)
+            return 1;  // so for 0 it will return 1 ;
+        
+        int bit =log2(n); // to get the number of bits of decimal number;
+        bit++;             // we need one bit extra ; 
+        int max_val=(1<<bit)-1;
+        
+        return max_val-n;
+    }

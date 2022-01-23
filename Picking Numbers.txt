@@ -1,0 +1,18 @@
+Picking Numbers :- hackerrank.com/challenges/picking-numbers/problem?isFullScreen=true
+Explanation :- https://www.youtube.com/watch?v=PtFAJTCKNn8&list=PLSIpQf0NbcCltzNFrOJkQ4J4AAjW3TSmA
+
+int pickingNumbers(vector<int> a) {
+    int freq[101];
+    for(int i=0;i<a.size();i++){
+        int x = a[i];
+        freq[x]++;  
+    }
+        
+    int ans = 0;
+    
+    for(int i=1;i<=100;i++){
+        if(ans < freq[i]+freq[i-1]) // Checking the max value
+            ans=freq[i]+freq[i-1];
+    }
+    return ans;
+}
