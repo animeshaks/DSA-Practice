@@ -1,0 +1,91 @@
+//Que - Print Your Name n-time.
+
+void printName(int i,int n){
+    if(i>n){
+        return;
+    }
+    cout<<"$RIJAN"<<endl;
+    printName(i+1,n);
+}
+
+int main() {
+    int n;
+    cin>>n;
+    printName(1,n);
+    return 0;
+}
+
+//Que - Print Numbers 1 to n
+
+void printNum(int i,int n){
+    if(i>n){
+        return;
+    }
+    cout<<i<<" ";
+    printNum(i+1,n);
+}
+
+int main() {
+    int n;
+    cin>>n;
+    printNum(1,n);
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+//Que - Print Numbers 1 to n
+
+void printNum(int i,int n){
+    if(i>n){
+        return;
+    }
+    cout<<n<<" ";
+    printNum(i,n-1);
+}
+
+int main() {
+    int n;
+    cin>>n;
+    printNum(1,n);
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+//Que - Print Numbers 1 to n by Backtracking i.e. without using + operator
+
+void printNum(int i){
+    if(i<1){
+        return;
+    }
+    printNum(i-1);
+    cout<<i<<" ";
+}
+
+int main() {
+    int n;
+    cin>>n;
+    printNum(n);
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+//Que - Print Numbers n to 1 by Backtracking i.e. without using - operator
+
+void printNum(int i,int n){
+    if(i>n){
+        return;
+    }
+    printNum(i+1,n);
+    cout<<i<<" ";
+}
+
+int main() {
+    int n;
+    cin>>n;
+    printNum(1,n);
+    return 0;
+}
+

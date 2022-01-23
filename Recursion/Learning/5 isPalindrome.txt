@@ -1,0 +1,14 @@
+//Que - Check if a string is palindrome or not
+
+bool isPalindrome(int i, string str){
+    if(i>=(str.length()/2))
+        return true;
+    if(str[i] != str[str.length()-i-1])
+        return false;
+    return isPalindrome(i+1,str);
+}
+
+int main() {
+    cout<<isPalindrome(0,"AMsA");
+    return 0;
+}

@@ -1,0 +1,31 @@
+//Que - Print Sum of n Numbers 
+
+//Parameterized Recursion
+void printSum(int i,int sum){
+    if(i<0){
+        cout<<"Sum : "<<sum;
+        return;
+    }
+    printSum(i-1,sum+i);
+}
+int main() {
+    int n;
+    cin>>n;
+    printSum(n,0);
+    return 0;
+}
+
+//Functional Recursion
+int sum(int n){
+    if(n==0){
+        return 0;
+    }
+    return n+sum(n-1);
+}
+
+int main() {
+    int n;
+    cin>>n;
+    cout<<"Sum : "<<sum(n);
+    return 0;
+}
