@@ -25,3 +25,11 @@
 - Q3 -> Rotate Image : https://leetcode.com/problems/rotate-image/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day3
+
+
+## _DAY-4_
+
+- Q1 -> Maximum Product Subarray : https://leetcode.com/problems/maximum-product-subarray/
+- Q2 -> 3Sum : https://leetcode.com/problems/3sum/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day4
