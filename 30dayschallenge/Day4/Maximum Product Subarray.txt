@@ -1,0 +1,19 @@
+152. Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
+
+APPROACH :- We will make both the iterations, forward and the backward one simultaneously and will appoint 2-pointer at the front and the backend (mentioning it by l(left_prod, it will leave the last -ve number out) and r(right_prod , it will leave the first -ve number out))....will compare the result everytime with both the products(left and right) and will update it with the maximum value encountered till then....
+and will do the same thing here too, updating the left_prod and right_prod by 1 whenever they become 0 !!
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int n = nums.size(), ans = nums[0], l = 1, r = 1;
+        for(int i=0;i<n;i++){
+            l *= nums[i];
+            r *= nums[n-i-1];
+            ans = max(ans, max(l,r));
+            if(l==0) l=1;
+            if(r==0) r=1;
+        }
+        return ans;
+    }
+};
