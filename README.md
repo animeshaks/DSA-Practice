@@ -33,3 +33,12 @@
 - Q2 -> 3Sum : https://leetcode.com/problems/3sum/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day4
+
+
+## _DAY-5_
+
+- Q1 -> Delete Node in a Linked List : https://leetcode.com/problems/delete-node-in-a-linked-list/
+- Q2 -> Remove Nth Node From End of List : https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- Q3 -> Intersection of Two Linked Lists : https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day5
