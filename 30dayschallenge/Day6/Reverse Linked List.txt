@@ -1,0 +1,22 @@
+206. Reverse Linked List - https://leetcode.com/problems/reverse-linked-list/
+
+Steps :
+	1. Initialize a node name prev - it will contain the current node's previous element(Reverse LL's)
+	2. Loop till head != null
+		a. Create a temp node that will hold next value
+		b. put head's next value as prev
+		c. put prev = head, as it will be previous node in Reversed LL
+		d. Reassign head to head.next ie. tem node
+
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        while(head != null){
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
+        }
+        return prev;
+    }
+}

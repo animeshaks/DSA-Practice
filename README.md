@@ -42,3 +42,11 @@
 - Q3 -> Intersection of Two Linked Lists : https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day5
+
+## _DAY-6_
+
+- Q1 -> Count nodes of linked list : https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
+- Q2 -> Reverse Linked List : https://leetcode.com/problems/reverse-linked-list/
+- Q3 -> Reverse a Linked List in groups of given size : https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1#
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day6
