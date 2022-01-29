@@ -50,3 +50,11 @@
 - Q3 -> Reverse a Linked List in groups of given size : https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1#
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day6
+
+
+## _DAY-7_
+
+- Q1 -> Linked List Cycle : https://leetcode.com/problems/linked-list-cycle/
+- Q2 -> Remove loop in Linked List : https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day7
