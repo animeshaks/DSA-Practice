@@ -58,3 +58,12 @@
 - Q2 -> Remove loop in Linked List : https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day7
+
+
+## _DAY-8_
+
+- Q1 -> Segregate even and odd nodes in a Link List : https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1
+
+- Q2 -> Rotate List - https://leetcode.com/problems/rotate-list/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day8
