@@ -67,3 +67,12 @@
 - Q2 -> Rotate List - https://leetcode.com/problems/rotate-list/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day8
+
+
+## _DAY-9_
+
+- Q1 -> Intersection Point in Y Shapped Linked Lists - https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
+
+- Q2 -> Merge two sorted linked lists - https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day9
