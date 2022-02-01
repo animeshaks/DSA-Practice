@@ -76,3 +76,12 @@
 - Q2 -> Merge two sorted linked lists - https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day09
+
+
+## _DAY-10_
+
+- Q1 -> 4Sum : https://leetcode.com/problems/4sum/
+
+- Q2 -> Find First and Last Position of Element in Sorted Array : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day10
