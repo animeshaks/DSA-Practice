@@ -85,3 +85,12 @@
 - Q2 -> Find First and Last Position of Element in Sorted Array : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day10
+
+
+## _DAY-11_
+
+- Q1 -> Palindrome Linked List : https://leetcode.com/problems/palindrome-linked-list/
+
+- Q2 -> Inserting a Node Into a Sorted Doubly Linked List : https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day11
