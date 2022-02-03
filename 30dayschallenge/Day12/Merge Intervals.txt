@@ -1,0 +1,35 @@
+56. Merge Intervals - https://leetcode.com/problems/merge-intervals/
+
+Algorithm:-
+
+-Firstly, the base case : if there are no intervals return [] .
+-Sort the intervals .
+-While traversing the intervals vector we will come accross two coditions
+	*First condition : if there is a overlapping between the intervals then just take out the max element from the ending point and thus we merged them
+	eg:- [1,4],[2,8] =Mergerd intervals will be> [1,8]
+
+	*second condition : if there is no overlapping then simply push those interval to our resultant vector .
+
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        vector<vector<int>> res;
+        if(intervals.size() == 0)
+            return res;
+        
+        sort(intervals.begin(),intervals.end());
+        
+        res.push_back(intervals[0]);
+        int j=0;
+        
+        for(int i=1;i<intervals.size();i++){
+            if(res[j][1]>=intervals[i][0]) 
+                res[j][1]=max(res[j][1],intervals[i][1]);
+            else{
+                j++;
+                res.push_back(intervals[i]);
+            }
+        }
+        return res;
+    }
+};

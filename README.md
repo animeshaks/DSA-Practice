@@ -94,3 +94,12 @@
 - Q2 -> Inserting a Node Into a Sorted Doubly Linked List : https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day11
+
+
+## _DAY-12_
+
+- Q1 -> Merge Intervals : https://leetcode.com/problems/merge-intervals/
+
+- Q2 -> Smith Number : https://practice.geeksforgeeks.org/problems/smith-number4132/1
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day12
