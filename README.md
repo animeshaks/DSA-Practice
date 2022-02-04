@@ -103,3 +103,14 @@
 - Q2 -> Smith Number : https://practice.geeksforgeeks.org/problems/smith-number4132/1
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day12
+
+
+## _DAY-13_
+
+- Q1 -> Remove Linked List Elements : https://leetcode.com/problems/remove-linked-list-elements/
+
+- Q2 -> Middle of the Linked List : https://leetcode.com/problems/middle-of-the-linked-list/
+
+- Q3 -> Binary Search - https://leetcode.com/problems/binary-search/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day13
