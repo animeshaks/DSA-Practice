@@ -114,3 +114,12 @@
 - Q3 -> Binary Search - https://leetcode.com/problems/binary-search/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day13
+
+
+## _DAY-14_
+
+- Q1 -> First Bad Version - https://leetcode.com/problems/first-bad-version/submissions/
+
+- Q2 -> Search Insert Position - https://leetcode.com/problems/search-insert-position/submissions/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day14
