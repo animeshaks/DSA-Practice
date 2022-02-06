@@ -123,3 +123,12 @@
 - Q2 -> Search Insert Position - https://leetcode.com/problems/search-insert-position/submissions/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day14
+
+
+## _DAY-15_
+
+- Q1 -> Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+- Q2 -> Find Peak Element - https://leetcode.com/problems/find-peak-element/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day15

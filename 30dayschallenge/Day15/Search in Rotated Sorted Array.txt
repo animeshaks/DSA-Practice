@@ -1,0 +1,39 @@
+33. Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int n = nums.size();
+        int start=0, end = n-1;
+        
+        // find the index of the smallest value using binary search.
+        // Loop will terminate since mid < end, and start or end will shrink by at least 1.
+        // Proof by contradiction that mid < end: if mid==end, then start==end and loop would have been terminated.
+        
+        while(start<end){
+            int mid = (start+end)/2;
+            if(nums[mid]>nums[end])
+                start = mid+1;
+            else
+                end = mid;
+        }
+        
+        // start==end is the index of the smallest value and also the number of places rotated.
+        int rotation = start;
+        start=0; 
+        end = n-1;
+        
+        // The usual binary search and accounting for rotation.
+        while(start<=end){
+            int mid = (start+end)/2;
+            int actualMid = (mid + rotation) % n;
+            if(nums[actualMid] == target)
+                return actualMid;
+            if(nums[actualMid] < target)
+                start = mid+1;
+            else
+                end = mid-1;
+        }
+        return -1;        
+    }
+};

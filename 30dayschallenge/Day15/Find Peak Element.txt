@@ -1,0 +1,41 @@
+162. Find Peak Element - https://leetcode.com/problems/find-peak-element/
+
+
+//58 out of 63 test cases passed. May be some condition is missing
+
+class Solution {
+public:
+    int findPeakElement(vector<int>& nums) {
+        if(nums.size() == 2){
+            if(nums[0]<nums[1])
+                return 1;
+        }
+            
+        for(int i=1; i<nums.size()-1; i++){
+            if(nums[i]>nums[i-1] && nums[i]>nums[i+1])
+                return i;
+        }
+        return 0;
+    }
+};
+
+// Using Binary Search
+
+class Solution {
+public:
+    int findPeakElement(vector<int>& nums) {
+        int start = 0, end = nums.size()-1;
+        
+        while(start < end-1){
+            int mid = (start+end)/2;
+            if(nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1])
+                return mid;
+            else if(nums[mid] > nums[mid + 1])
+                end = mid-1;
+            else
+                start = mid+1;
+        }
+        return nums[start] > nums[end] ? start : end;
+        
+    }
+};
