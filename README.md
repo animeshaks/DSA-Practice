@@ -132,3 +132,12 @@
 - Q2 -> Find Peak Element - https://leetcode.com/problems/find-peak-element/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day15
+
+
+## _DAY-16_
+
+- Q1 -> Add Two Numbers - https://leetcode.com/problems/add-two-numbers/
+
+- Q2 -> Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day16
