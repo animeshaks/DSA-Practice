@@ -141,3 +141,12 @@
 - Q2 -> Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day16
+
+
+## _DAY-17_
+
+- Q1 -> Sqrt(x) - https://leetcode.com/problems/sqrtx/
+
+- Q2 -> Search a 2D Matrix - https://leetcode.com/problems/search-a-2d-matrix/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day17
