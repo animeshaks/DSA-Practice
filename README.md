@@ -150,3 +150,12 @@
 - Q2 -> Search a 2D Matrix - https://leetcode.com/problems/search-a-2d-matrix/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day17
+
+
+## _DAY-18_
+
+- Q1 -> Valid Parentheses :- https://leetcode.com/problems/valid-parentheses/
+
+- Q2 -> Implement Queue using Stacks - https://leetcode.com/problems/implement-queue-using-stacks/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day18
