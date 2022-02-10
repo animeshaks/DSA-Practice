@@ -159,3 +159,14 @@
 - Q2 -> Implement Queue using Stacks - https://leetcode.com/problems/implement-queue-using-stacks/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day18
+
+
+## _DAY-19_
+
+- Q1 -> Maximum Ascending Subarray Sum - https://leetcode.com/problems/maximum-ascending-subarray-sum/
+
+- Q2 -> Backspace String Compare - https://leetcode.com/problems/backspace-string-compare/
+
+- Q3 -> Long Pressed Name - https://leetcode.com/problems/long-pressed-name/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day19
