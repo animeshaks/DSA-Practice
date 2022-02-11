@@ -170,3 +170,16 @@
 - Q3 -> Long Pressed Name - https://leetcode.com/problems/long-pressed-name/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day19
+
+
+## _DAY-20_
+
+- Q1 -> Fibonacci Number - https://leetcode.com/problems/fibonacci-number/
+
+- Q2 -> Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
+
+- Q3 -> Reverse String - https://leetcode.com/problems/reverse-string/
+
+- Q4 -> Swap Nodes in Pairs - https://leetcode.com/problems/swap-nodes-in-pairs/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day20
