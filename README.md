@@ -183,3 +183,12 @@
 - Q4 -> Swap Nodes in Pairs - https://leetcode.com/problems/swap-nodes-in-pairs/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day20
+
+
+## _DAY-21_
+
+- Q1 -> Pow(x, n) - https://leetcode.com/problems/powx-n/
+
+- Q2 -> Power of Three - https://leetcode.com/problems/power-of-three/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day21

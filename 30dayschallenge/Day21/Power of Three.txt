@@ -1,0 +1,18 @@
+326. Power of Three - https://leetcode.com/problems/power-of-three/
+
+ITERATIVE APPROACH:
+	bool isPowerOfThree(int n) {
+        while(n>1) {
+            if(n%3!=0) 
+                return false;
+            n /= 3;
+        }
+        return n<=0 ? false : true;
+    }
+
+ONE LINER - Find the maximum integer that is a power of 3 and check if it is a multiple of the given input.
+    bool isPowerOfThree(int n) {
+        return n > 0 && (1162261467 % n == 0);
+    }
+
+RECURSIVE APPROACH:
