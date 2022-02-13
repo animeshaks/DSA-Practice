@@ -192,3 +192,12 @@
 - Q2 -> Power of Three - https://leetcode.com/problems/power-of-three/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day21
+
+
+## _DAY-22_
+
+- Q1 -> Power of Four - https://leetcode.com/problems/power-of-four/
+
+- Q2 -> Find the Winner of the Circular Game - https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day22
