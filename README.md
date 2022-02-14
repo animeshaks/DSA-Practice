@@ -201,3 +201,12 @@
 - Q2 -> Find the Winner of the Circular Game - https://leetcode.com/problems/find-the-winner-of-the-circular-game/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day22
+
+
+## _DAY-23_
+
+- Q1 -> Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+- Q2 -> Minimum Size Subarray Sum - https://leetcode.com/problems/minimum-size-subarray-sum/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day23
