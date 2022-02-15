@@ -210,3 +210,12 @@
 - Q2 -> Minimum Size Subarray Sum - https://leetcode.com/problems/minimum-size-subarray-sum/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day23
+
+
+## _DAY-24_
+
+- Q1 -> Min Stack - https://leetcode.com/problems/min-stack/
+
+- Q2 -> Minimum Add to Make Parentheses Valid - https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day24
