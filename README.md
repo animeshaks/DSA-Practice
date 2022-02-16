@@ -219,3 +219,12 @@
 - Q2 -> Minimum Add to Make Parentheses Valid - https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day24
+
+
+## _DAY-25_
+
+- Q1 -> Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/
+
+- Q2 -> Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day25

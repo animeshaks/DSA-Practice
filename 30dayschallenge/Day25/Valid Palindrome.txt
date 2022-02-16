@@ -1,0 +1,27 @@
+125. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+
+bool isPalindrome(string s) {
+    int start = 0;
+    int n = s.size();
+    nt end = n-1;
+        
+    while(start<=end) {
+
+        while(start < end && !isalnum(s[start]))
+            start++;
+
+        while(start < end && !isalnum(s[end]))
+            end--;
+
+        if(toupper(s[start]) != toupper(s[end])) 
+            return false;
+            
+        start++;
+        end--;
+    }
+    return true;
+}
+
+NOTE:
+	> toupper is a function to convert lowercase letters into uppercase.
+	> isalnum is a function to check if character is alphabet or numeric.
