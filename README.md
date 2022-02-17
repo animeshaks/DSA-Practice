@@ -228,3 +228,12 @@
 - Q2 -> Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day25
+
+
+## _DAY-26_
+
+- Q1 -> Implement strStr() - https://leetcode.com/problems/implement-strstr/
+
+- Q2 -> Add Binary - https://leetcode.com/problems/add-binary/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day26
