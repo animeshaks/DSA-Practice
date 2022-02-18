@@ -237,3 +237,12 @@
 - Q2 -> Add Binary - https://leetcode.com/problems/add-binary/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day26
+
+
+## _DAY-27_
+
+- Q1 -> Length of Last Word - https://leetcode.com/problems/length-of-last-word/
+
+- Q2 -> Reverse Vowels of a String - https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day27
