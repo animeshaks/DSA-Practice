@@ -246,3 +246,14 @@
 - Q2 -> Reverse Vowels of a String - https://leetcode.com/problems/reverse-vowels-of-a-string/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day27
+
+
+## _DAY-28_
+
+- Q1 -> Valid Triangle Number - https://leetcode.com/problems/valid-triangle-number/
+
+- Q2 -> Valid Perfect Square - https://leetcode.com/problems/valid-perfect-square/
+
+- Q3 -> Guess Number Higher or Lower - https://leetcode.com/problems/guess-number-higher-or-lower/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day28

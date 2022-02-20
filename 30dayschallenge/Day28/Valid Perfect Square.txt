@@ -1,0 +1,26 @@
+367. Valid Perfect Square - https://leetcode.com/problems/valid-perfect-square/
+
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        long left=0,right=num,mid;
+        mid=(left+right)/2;
+        while(left<=right)
+        {
+            long ans=mid*mid;
+            if(ans==num)
+                return true;
+            if(ans>num)
+            {
+                right=mid-1;
+                mid=(left+right)/2;
+            }
+            else
+            {
+                left=mid+1;
+                mid=(left+right)/2;
+            }
+        }
+        return false;
+    }
+};
