@@ -1,0 +1,45 @@
+1472. Design Browser History - https://leetcode.com/problems/design-browser-history/
+
+class BrowserHistory {
+    class Node{
+        String val;
+        Node next,prev;
+        Node(String val){
+            this.val=val;
+            this.next=null;
+            this.prev=null;
+        }
+    }
+    Node root,curr;
+    public void addNode(String s){
+        Node temp=new Node(s);
+        temp.prev=curr;
+        curr.next=temp;
+        curr=curr.next;
+    }
+    
+    public BrowserHistory(String homepage) {
+        root=new Node(homepage);
+        curr=root;
+    }
+    
+    public void visit(String url) {
+        addNode(url);
+    }
+    
+    String back(int steps) {
+        while(curr.prev!=null && steps >0){
+            curr=curr.prev;
+            steps--;
+        }
+        return curr.val;
+    }
+    
+    String forward(int steps) {
+        while(curr.next!=null && steps >0){
+            curr=curr.next;
+            steps--;
+        }
+        return curr.val;
+    }
+};

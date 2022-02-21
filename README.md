@@ -266,3 +266,12 @@
 - Q2 -> Reach a Number - https://leetcode.com/problems/reach-a-number/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day29
+
+
+## _DAY-30_
+
+- Q1 -> Design Browser History - https://leetcode.com/problems/design-browser-history/
+
+- Q2 -> Reverse Integer - https://leetcode.com/problems/reverse-integer/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day30
