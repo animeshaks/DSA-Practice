@@ -257,3 +257,12 @@
 - Q3 -> Guess Number Higher or Lower - https://leetcode.com/problems/guess-number-higher-or-lower/
 
 - Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day28
+
+
+## _DAY-29_
+
+- Q1 -> Find Smallest Letter Greater Than Target - https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+
+- Q2 -> Reach a Number - https://leetcode.com/problems/reach-a-number/
+
+- Solution -> https://github.com/animeshaks/DSA-Practice/tree/main/30dayschallenge/Day29

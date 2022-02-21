@@ -1,0 +1,21 @@
+744. Find Smallest Letter Greater Than Target - https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+
+class Solution {
+public:
+    char nextGreatestLetter(vector<char>& letters, char target) {
+        int n = letters.size();
+        int start = 0;
+        int end = n-1;
+        int mid = (start+end)/2;
+        while(start<=end){
+            if(letters[mid]>target)
+                end = mid-1;
+            else
+                start = mid+1;
+            mid = (start+end)/2;
+        }
+        return letters[start%n];
+    }
+};
+
+Note: At return statement doing modulo because if we reached at end and still not got any minimum greater than target , then according to question we have to return 1st char for eg: ['a',' b'] & target = z, then we have to return 'a' as ans. lets take one more example ['c', 'f', 'j'] & target = 'j' then output will be 'c' . 

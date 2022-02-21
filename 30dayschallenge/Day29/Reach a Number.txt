@@ -1,0 +1,37 @@
+754. Reach a Number - https://leetcode.com/problems/reach-a-number/
+
+class Solution {
+public:
+    int reachNumber(int target) {
+        target = abs(target);
+        int ans = 0;
+        int count = 0;
+        
+		// For example target = 5
+        while(ans<target){
+            ans+=count;
+            count+=1;
+        }
+		
+		// Now ans = 6
+		// count = 4
+        
+		
+		// Now 6-5 is not even so we will enter in this loop
+        while((ans-target)%2){
+            ans+=count;
+            count+=1;
+			
+			// Now ans = 6+4 = 10  
+			// count = 5
+			
+			// In the 2nd iteration
+			// ans = 10+5=15
+			// count=6
+			// (15-5)%==0 so while loop is terminated
+        }
+		
+		// But the count is incremented by 1 in the last iteration so we will subtract 1 from count
+        return count-1;
+    }
+};
